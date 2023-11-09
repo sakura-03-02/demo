@@ -21,7 +21,7 @@ public class userController
     public List<User> findAll()
     {
         List<User> users = userService.findAll();
-        System.out.println("huchao111");
+        System.out.println("huchao222");
         return users;
     }
     @PostMapping
